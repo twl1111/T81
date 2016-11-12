@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity
             drawer.closeDrawer(GravityCompat.START);
         } else {
             Log.e(TAG, "onBackPressed: "+"======================" );
+            Log.e(TAG, "onBackPressed: "+"======================" );
             super.onBackPressed();
         }
     }
